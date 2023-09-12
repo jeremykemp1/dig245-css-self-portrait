@@ -19,6 +19,7 @@ body{
     position: absolute;
     left: 25%;
     top: 10%;
+    margin: auto;
 }
 
 #head{
@@ -29,6 +30,7 @@ body{
     border-radius: 350px;
     left: 200px;
     top: 90px;
+    margin: auto;
 }
 
 #tshirt{
@@ -40,6 +42,7 @@ body{
     left: 190px;
     top: 550px;
     animation: randomColour 12s infinite;
+    margin: auto;
 }
 
 @keyframes  randomColour {
@@ -58,6 +61,7 @@ body{
     border-radius: 148px;
     left: 306px;
     top: 450px;
+    margin: auto;
 }
 
 #leftEye{
@@ -68,6 +72,7 @@ body{
     border-radius: 148px;
     left: 280px;
     top: 260px;
+    margin: auto;
 }
 
 #rightEye{
@@ -78,6 +83,7 @@ body{
     border-radius: 148px;
     left: 394px;
     top: 260px;
+    margin: auto;
 }
 
 #leftEyebrow{
@@ -88,6 +94,7 @@ body{
     border-radius: 148px;
     left: 268px;
     top: 245px;
+    margin: auto;
 }
 
 #rightEyebrow{
@@ -98,6 +105,7 @@ body{
     border-radius: 148px;
     left: 385px;
     top: 245px;
+    margin: auto;
 }
 
 #mouth{
@@ -108,6 +116,7 @@ body{
     border-radius: 148px;
     left: 306.5px;
     top: 420px;
+    margin: auto;
 }
 
 #mainHair{
@@ -118,6 +127,7 @@ body{
     border-radius: 148px;
     left: 185px;
     top: 80px;
+    margin: auto;
 }
 
 #topHair{
@@ -128,4 +138,5 @@ body{
     border-radius: 148px;
     left: 429px;
     top: 48px;
+    margin: auto;
 }
