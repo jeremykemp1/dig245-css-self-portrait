@@ -1,2 +1,131 @@
 
 /* css */
+
+body{
+    background-color: rgb(188, 225, 255);
+}
+
+.title {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+}
+
+.canvas {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+#head{
+    position: absolute;
+    width: 300px;
+    height: 423px;
+    background-color: #F9CD99;
+    border-radius: 350px;
+    left: 200px;
+    top: 90px;
+}
+
+#tshirt{
+    position: absolute;
+    width: 319px;
+    height: 122px;
+    background-color: #8BAF7E;
+    border-radius: 148px;
+    left: 190px;
+    top: 550px;
+    animation: randomColour 12s infinite;
+}
+
+@keyframes  randomColour {
+    15% { background-color: rgb(243, 114, 114); } 
+    30% { background-color: rgb(247, 247, 136); } 
+    45% { background-color: rgb(167, 244, 167); } 
+    60% { background-color: rgb(94, 120, 239); }
+    75% { background-color: rgb(174, 112, 241); }  
+}
+
+#neck{
+    position: absolute;
+    width: 88px;
+    height: 157px;
+    background-color: #F9CD99;
+    border-radius: 148px;
+    left: 306px;
+    top: 450px;
+}
+
+#leftEye{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #000;
+    border-radius: 148px;
+    left: 280px;
+    top: 260px;
+}
+
+#rightEye{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #000;
+    border-radius: 148px;
+    left: 394px;
+    top: 260px;
+}
+
+#leftEyebrow{
+    position: absolute;
+    width: 48px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 148px;
+    left: 268px;
+    top: 245px;
+}
+
+#rightEyebrow{
+    position: absolute;
+    width: 48px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 148px;
+    left: 385px;
+    top: 245px;
+}
+
+#mouth{
+    position: absolute;
+    width: 87px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 148px;
+    left: 306.5px;
+    top: 420px;
+}
+
+#mainHair{
+    position: absolute;
+    width: 330px;
+    height: 110px;
+    background-color: #C09149;
+    border-radius: 148px;
+    left: 185px;
+    top: 80px;
+}
+
+#topHair{
+    position: absolute;
+    width: 87px;
+    height: 122px;
+    background-color: #C09149;
+    border-radius: 148px;
+    left: 429px;
+    top: 48px;
+}
