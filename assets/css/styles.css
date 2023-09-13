@@ -140,3 +140,12 @@ body{
     top: 48px;
     margin: auto;
 }
+
+.mouse{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    left: 50px;
+    top: 70%;
+}
